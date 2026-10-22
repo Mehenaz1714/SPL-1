@@ -4,6 +4,29 @@
 # OUTBOUND = application/proxy outbound-request log
 # Synthetic training data; example/documentation IPs and domains only.
 
+
+Sep 19 01:44:25 webserver sshd[33809]: Failed password for root from 198.51.100.200 port 32262 ssh2
+Sep 19 01:44:30 webserver sshd[1474]: Failed password for root from 198.51.100.200 port 22099 ssh2
+Sep 19 01:44:35 webserver sshd[24280]: Failed password for root from 198.51.100.200 port 29023 ssh2
+Sep 19 01:44:40 webserver sshd[59346]: Failed password for root from 198.51.100.200 port 24109 ssh2
+Sep 19 01:44:45 webserver sshd[1217]: Failed password for root from 198.51.100.200 port 51384 ssh2
+Sep 19 01:44:50 webserver sshd[32793]: Failed password for root from 198.51.100.200 port 30257 ssh2
+Sep 19 01:44:55 webserver sshd[83766]: Failed password for root from 198.51.100.200 port 30740 ssh2
+Sep 19 01:45:05 webserver sshd[2541]: Accepted password for root from 198.51.100.200 port 30692 ssh2
+Sep 19 04:15:00 webserver sshd[31281]: Failed password for deploy from 192.0.2.222 port 36045 ssh2
+Sep 19 04:15:06 webserver sshd[8287]: Failed password for deploy from 192.0.2.222 port 59328 ssh2
+Sep 19 04:15:12 webserver sshd[78142]: Failed password for deploy from 192.0.2.222 port 50388 ssh2
+Sep 19 04:15:18 webserver sshd[80675]: Failed password for deploy from 192.0.2.222 port 46955 ssh2
+Sep 19 04:15:24 webserver sshd[23176]: Failed password for deploy from 192.0.2.222 port 22866 ssh2
+Sep 19 04:15:30 webserver sshd[1417]: Failed password for deploy from 192.0.2.222 port 45652 ssh2
+Sep 19 04:15:36 webserver sshd[80710]: Failed password for deploy from 192.0.2.222 port 26643 ssh2
+Sep 19 04:15:50 webserver sshd[1671]: Accepted password for deploy from 192.0.2.222 port 57773 ssh2
+Sep 19 07:12:00 webserver sshd[48328]: Accepted password for admin from 103.87.215.65 port 47482 ssh2
+Sep 20 08:30:00 webserver sshd[47449]: Invalid user backup from 203.0.113.200 port 54444
+Sep 20 08:31:00 webserver sshd[57462]: Invalid user backup from 203.0.113.200 port 34577
+Sep 20 08:32:00 webserver sshd[24792]: Invalid user backup from 203.0.113.200 port 55560
+Sep 20 08:33:00 webserver sshd[89072]: Invalid user backup from 203.0.113.200 port 48746
+Sep 20 08:34:00 webserver sshd[83911]: Invalid user backup from 203.0.113.200 port 50051
 103.181.104.74 - - [16/Sep/2026:00:03:34 +0600] "GET /bn/408b7c8ad06e4d9954fa2d948a01f508 HTTP/1.1" 200 130190 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36"
 103.181.104.74 - - [16/Sep/2026:00:03:35 +0600] "GET /css/landingPage2.css?v=11 HTTP/1.1" 304 0 "https://www.xyz.com/bn/408b7c8ad06e4d9954fa2d948a01f508" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36"
 103.181.104.74 - - [16/Sep/2026:00:03:36 +0600] "GET /js/landingPage2.js?v=15 HTTP/1.1" 304 0 "https://www.xyz.com/bn/408b7c8ad06e4d9954fa2d948a01f508" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36"
