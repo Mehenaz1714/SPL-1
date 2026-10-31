@@ -24,17 +24,15 @@ struct Alert
 };
 
 vector<Alert> detectSSHBruteForce(
-    const vector<Event>& events,
+    const vector<Event> &events,
     int threshold = 5,
     long long windowSeconds = 300,
-    long long suppressionSeconds = 300
-);
+    long long suppressionSeconds = 300);
 
 vector<Alert> detectSuccessfulLoginAfterFailures(
-    const vector<Event>& events,
+    const vector<Event> &events,
     int threshold = 5,
     long long windowSeconds = 300,
-    long long suppressionSeconds = 300
-);
+    long long suppressionSeconds = 300);
 
 #endif
