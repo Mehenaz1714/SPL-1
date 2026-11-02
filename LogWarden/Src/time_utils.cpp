@@ -172,13 +172,13 @@ bool parseTimestamp(const string &timestamp, bool isSSH,
         if (!readNumber(timestamp, dayStart, 2, result.day))
         {
             // Retry with a one-digit day.
-            if (!readNumber(timestamp, dayStart + 1, 1, result.day))
+            if (!readNumber(timestamp, dayStart, 1, result.day))
             {
                 return false;
             }
         }
 
-        int timeStart = dayStart + 3;
+        int timeStart = 7;
 
         if (timeStart + 7 > (int)timestamp.length())
         {
